@@ -36,3 +36,7 @@ Tip:
 Use models optimized for speed (e.g., MobileNetV2, EfficientNet-lite).
 Avoid large, slow models like NASNetLarge for time-critical tasks.
 
+**Additional Considerations**
+Task Complexity: Larger and deeper models are better for tasks requiring high feature abstraction.
+Dataset Size: For small datasets, use smaller models to avoid overfitting.
+Transfer Learning: Pretrained models like ResNet or EfficientNet often perform well when fine-tuned on diverse datasets.
